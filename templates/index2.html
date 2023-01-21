@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Text utils</title>
+    
+</head>
+<body>
+<!--  # 2 #
+    hellO WELCOME TO Mmy website
+{{name}} is from {{place}} they are from index fun in views.py -->
+
+<!-- # 3 # -->
+<h1>Welcome to text analyazer. Enter your text
+ below</h1>
+ <form action ='/analyze' method='get'> <!--get is use to take entery from user-->
+    <textarea name ='text'style="width: 1450px; height: 484px;"></textarea><br>
+  <input type="checkbox" name="removepunc">  Remove punctions<br>
+  <input type="checkbox" name="fullcaps">  UPPER CASE<br>
+  <input type="checkbox" name="newlineremover">  Newline remover<br>
+  <input type="checkbox" name="extraspaceremover">  Extra spaceremover<br>
+  <input type="checkbox" name="charcounter">  Char Counter<br>
+<button type='submit'> Analyze Text </button>
+ </form>      
+</body>
+</html>
